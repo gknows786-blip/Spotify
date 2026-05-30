@@ -1,0 +1,154 @@
+.spotify-div{
+    max-width: 52%;
+    height: 70vh; 
+    background-color: #121212;
+    color: white;
+    display: flex; 
+    overflow: auto;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 15px;
+    gap: 20px;
+    border-radius: 9px; 
+}
+.spotify-div::-webkit-scrollbar{
+    display: none;
+}
+.first-roll{
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    max-width: 1000px;
+    overflow: auto;
+    height: 140px;
+}
+.first-roll::-webkit-scrollbar{
+    display: none;
+}
+.first-one{
+    min-width: 150px;
+    height: 140px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: transparent;
+}
+.superFooterContainer {
+    background-color: transparent;
+    color: #b3b3b3;
+    /* padding: 80px 0 20px 0; */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    width: 500px;
+}
+
+.mainContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    /* padding: 0 32px 50px 32px; */
+    border-bottom: 1px solid #282828;
+}
+
+.sectionGroup {
+    margin-right: 40px;
+    background-color: transparent;
+}
+
+.sectionTitle {
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.linkList {
+    list-style: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.listLink {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 14px;
+    background-color: #121212;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.listLink:hover {
+    color: #1ed760;
+}
+
+.socialIconsContainer {
+    display: flex;
+    gap: 15px;
+    background-color: transparent;
+}
+
+.socialIconBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.socialIconBtn:hover {
+    background-color: #747474;
+}
+
+.socialIconInsta,
+.socialIconTwitter,
+.socialIconFacebook {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: currentColor;
+}
+
+
+
+.bottomBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    padding: 0 32px;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.legalLinksList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.legalLink {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.legalLink:hover {
+    color: #1ed760;
+}
+
+.copyrightText {
+    white-space: nowrap;
+}

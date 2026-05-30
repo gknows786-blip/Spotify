@@ -1,0 +1,126 @@
+aside {
+  background-color: #121212;
+  height: 70vh;
+  margin-left: 10px;
+  width: 250px;
+  border-radius: 9px;
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+.top p {
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: 600;
+}
+.add {
+  display: flex;
+  background-color: transparent;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.over-add {
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.second {
+  display: flex;
+  gap: 10px;
+  background-color: transparent;
+}
+.playlist {
+  background-color: #1e1e1e;
+  border: 0;
+  border-radius: 15px;
+  width: auto;
+  padding: 5px 12px;
+  font-weight: 500;
+  cursor: pointer;
+
+  font-size: 13px;
+}
+.artist {
+  background-color: #1e1e1e;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+  width: auto;
+  font-weight: 500;
+  padding: 5px 12px;
+  font-size: 13px;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.recent{
+    display: flex;
+    gap: 3px;
+    background-color: transparent;
+    align-items: center;
+}
+.recent span{
+    background-color: transparent;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.first-stage{
+    border-radius: 8px;
+    width: 240px;
+    max-height: 11vh;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+}
+.first-stage:hover{
+  background-color: #1e1e1e;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.stage-image{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+.text-group{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.upper{
+    font-size: 14px;
+    background-color: transparent;
+    font-weight: 500;
+}
+.down{
+    background-color: transparent;
+    color: grey;
+    font-size: 13px;
+}
+.down:hover{
+    transform: none;
+    transition: none;
+    color: grey;
+}

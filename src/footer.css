@@ -1,0 +1,128 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    gap: 110px;
+    background-color: transparent;
+    height: 9.83vh;
+}
+.uppers{
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: 500;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-stages{
+    border-radius: 8px;
+    width: 260px;
+    max-height: 11vh;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+}
+.first-stages:hover{
+  background-color: transparent;
+  cursor: pointer;
+}
+.player-controls {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+.left-controls,
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.control-btn {
+  background: transparent;
+  border: none;
+  color: #b3b3b3;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  color: #fff;
+}
+
+.play-btn {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 20px;
+}
+
+.progress {
+  min-width: 350px;
+  height: 4px;
+  border-radius: 2px;
+  appearance: none;
+  background: #535353;
+  outline: none;
+  cursor: pointer;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 550px; */
+}
+.progress::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-bar {
+  width: 80px;
+  appearance: none;
+  height: 4px;
+  background: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.volume-bar::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #1db954;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.green-btn {
+  color: #1db954;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

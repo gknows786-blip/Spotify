@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.spotify-navbar {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img1{
+    width: 35px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.spotify-logo {
+  width: 32px;
+  height: 32px;
+}
+svg{
+    background-color: transparent;
+}
+.mySvg{
+  /* background-color: #1e1e1e; */
+  border-radius: 50%;
+}
+
+.search-bar {
+  background-color: #1e1e1e;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  /* padding: 10px 12px; */
+  padding: 6px 12px; 
+  width: 350px;
+  /* height: 5.5vh; */
+  max-width: 100%;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  margin-left: 8px;
+  flex-grow: 1;
+  /* height: 5vh; */
+}
+
+.search-icon {
+  background: transparent;
+  border: none;
+  color: #aaa;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.download{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+span{
+    display: flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    cursor: pointer;
+    color: #bbb7b7;
+}
+span:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+    color: white;
+}
+.login:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s ease-out;
+    font-size: 13px;
+}
+.login{
+    width: 130px;
+    background-color: white;
+    height: 5vh;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5vh;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: SpotifyMixUI
+CircularSp-Arab
+CircularSp-Hebr
+CircularSp-Cyrl
+CircularSp-Grek
+CircularSp-Deva
+"Helvetica Neue"
+helvetica
+arial
+"Hiragino Kaku Gothic ProN"
+Meiryo
+"MS Gothic";
+}
+.g{
+    background-color: #509bf5;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: 600;
+    border: 0
+}
+.over-g{
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.theSvg:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+    color: white;
+}
+i:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+    color: white;
+    cursor: pointer;
+}
